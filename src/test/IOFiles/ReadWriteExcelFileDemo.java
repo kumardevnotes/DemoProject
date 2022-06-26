@@ -9,18 +9,21 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.util.Iterator;
 
-public class ReadWriteExcelFileDemo {
+public class ReadExcelFileDemo {
+
     public static FileInputStream fileInputStream = null;
     public static XSSFWorkbook workbook = null;
     public static XSSFSheet sheet = null;
 
     public static void main(String[] args) throws Exception {
-        readExcelRows();
-        //writeToExcel();
+        //readExcelRows();
+        writeToExcel();
+
     }
 
     public static void readExcelRows() throws Exception{
-        FileInputStream fileInputStream = new FileInputStream(new File("src/test/resources/BranchLibrary.xlsx"));
+        fileInputStream = new FileInputStream(new File("src/test/resources/BranchLibrary.xlsx"));
+
         // Create Workbook instance holding reference to .xlsx file
         workbook = new XSSFWorkbook(fileInputStream);
 

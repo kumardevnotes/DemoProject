@@ -1,2 +1,2 @@
-public class ClassInterfaceExample {
+package PACKAGE_NAME;public class ClassInterfaceExample {
 }

@@ -1,2 +1,2 @@
-public class ChildClass {
+package PACKAGE_NAME;public class ChildClass {
 }
