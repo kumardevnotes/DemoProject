@@ -1,6 +1,6 @@
-package com.oops.interfaces;
+package src.test.interfaces;
 
-public class DemoClass1 implements DemoInterface1
+public class DemoClass1 implements com.oops.interfaces.DemoInterface1
 
 //Concrete class. means A class defines method body for all its respective methods
 {

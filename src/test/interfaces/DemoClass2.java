@@ -1,6 +1,6 @@
-package com.oops.interfaces;
+package src.test.interfaces;
 
-public class DemoClass2 implements DemoInterface1 {
+public class DemoClass2 implements com.oops.interfaces.DemoInterface1 {
 
 	public static void main(String[] args) {
 		DemoClass2 democlass2 = new DemoClass2();

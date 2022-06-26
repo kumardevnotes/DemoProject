@@ -1,8 +1,8 @@
-package com.oops.interfaces;
+package src.test.interfaces;
 
 import java.util.Scanner;
 
-public class PracticeStudentClass implements PracticeSchoolInterface {
+public class PracticeStudentClass implements com.oops.interfaces.PracticeSchoolInterface {
 	
 	int monthCount;
 	PracticeStudentClass (int monCount){

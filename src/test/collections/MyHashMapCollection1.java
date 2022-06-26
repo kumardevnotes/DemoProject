@@ -1,4 +1,4 @@
-package com.oops.collections;
+package src.test.collections;
 
 import java.util.HashMap;
 import java.util.List;

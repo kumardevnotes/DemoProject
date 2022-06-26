@@ -1,8 +1,8 @@
-package com.oops.interfaces;
+package src.test.interfaces;
 
 import java.util.Scanner;
 
-public class StudentClass1 implements SchoolInterface {
+public class StudentClass1 implements com.oops.interfaces.SchoolInterface {
 	int  subjectsCount;
 	
 	StudentClass1(int subsCount){
