@@ -1,4 +1,4 @@
-package com.oops.interfaces;
+package src.test.interfaces;
 
 public interface DemoInterface1 {
 	

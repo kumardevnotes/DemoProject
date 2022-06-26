@@ -1,4 +1,4 @@
-package com.oops.collections;
+package src.test.collections;
 
 import java.util.HashSet;
 import java.util.Set;
